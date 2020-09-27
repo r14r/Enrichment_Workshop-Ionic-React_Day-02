@@ -1,0 +1,39 @@
+{
+  "name": "reason-calculator",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": ["bs-css", "reason-react"],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest",
+    "bs-jest-dom",
+    "bs-react-testing-library",
+    "bs-webapi"
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": [
+        {
+          "dir": "__tests__",
+          "type": "dev"
+        },
+        {
+          "dir": "components",
+          "subdirs": [
+            {
+              "dir": "__tests__",
+              "type": "dev"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "refmt": 3
+}
