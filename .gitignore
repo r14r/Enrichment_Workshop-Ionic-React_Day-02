@@ -1,4 +1,4 @@
 **/.env.d
-github-ionic-react/photo-gallery-capacitor-react/node_modules**/.env.d
 **/.env
 
+**/node_modules
